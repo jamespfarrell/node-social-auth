@@ -1,0 +1,10 @@
+.mainContainer {
+	width:90%;
+	margin: 0 auto;
+	position: relative;
+}
+.userDetails {
+	position: absolute;
+	top:0;
+	right:0;
+}

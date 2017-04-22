@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title><%= siteName %></title>
+	<link rel="stylesheet" href="/css/player.css">
+	<script src="/js/jquery-2.1.4.min.js"></script>
+
+</head>
+<body>
+	<div class="mainContainer">
+		<div class="titlePanel">
+			<h1>Your home page on <%= siteName %></h1>
+		</div>
+		<div class="userDetails">
+			<div class="userPicHolder"><img src="<%= user.profilePic %>" alt="<%= user.fullName %>"></div>
+			<p class="userName"><%= user.fullName %></p>
+			<a href="/logout" id="logOutBtn">Logout</a>
+		</div>
+
+	</div>
+</body>
+</html>
