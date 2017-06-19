@@ -9,6 +9,8 @@ To install:
 app/config/development.json
 
 ...this should look like this:
+
+```json
 {
 	"host": "http://localhost:3000",
 	"dbURI": "<your mongoLab.com database URI>",
@@ -26,6 +28,7 @@ app/config/development.json
 		"profileFields": ["id", "displayName", "photos"]
 	}
 }
+```
 
 3) Create a new database at https://mlab.com and add details to the config file. 
 4) Register your app with Facebook and twitter adding your api details to the config
